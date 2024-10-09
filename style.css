@@ -61,7 +61,13 @@
     border-radius: 4px;
     outline: none;
     height: 2rem;
+    
   }
+  .input-section input[type=number]::-webkit-inner-spin-button,
+  .input-section input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;
+    margin: 0;}
+ 
+
   .input-section span{
     padding: 0px 5px;
     background-color: var(--Slate-100);
