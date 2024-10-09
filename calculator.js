@@ -84,7 +84,7 @@ resultBox.innerHTML = `<h3>Your results</h3>
     resultBox.classList.remove('section-three');
    
    resultBox.classList.add('section-two');
-   resultBox.innerHTML = ` <img src="/assets/images/illustration-empty.svg" alt="">
+   resultBox.innerHTML = ` <img src="./assets/images/illustration-empty.svg" alt="">
 
       <h3>Results shown here</h3>
       <p>Complete the form and click “calculate repayments” to see what 
