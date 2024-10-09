@@ -8,6 +8,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--Slate-900);
     max-height: 100vh;
+    background-color: var(--Slate-100);
   }
   :root{
   --Lime: hsl(61, 70%, 52%);
@@ -21,10 +22,12 @@
   }
   .container{
     max-width: 375px;
-    border: 1px solid var(--Slate-300);
     height: 800px;
     margin: auto;
     margin-bottom: 30px;
+    border-radius: 7px;
+    margin-top: 30px;
+    background-color: var(--White);
   }
   
 
@@ -111,6 +114,7 @@
     text-align: center;
     padding: 2rem 2.5rem;
     height: 32%;
+    border-radius: 7px;
   }
   .section-two img{
     height: 10rem;
@@ -120,6 +124,7 @@
     font-size: 0.7rem;
     color: var(--Slate-300);
     line-height: 1.2rem;
+    
   }
   .section-three{
     background-color: var(--Slate-900);
@@ -238,6 +243,7 @@
   .section-two p{
   font-size: 0.6rem;
   }
-  }
+  
+   }
   
  
