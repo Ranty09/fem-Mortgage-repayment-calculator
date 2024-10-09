@@ -40,7 +40,7 @@
   .reset-button{
     text-decoration: underline;
     cursor: pointer;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .input-box{
   margin-bottom: 1.2rem;
@@ -74,7 +74,7 @@
   .radio-input{
     border: 1px solid var(--Slate-700);
     border-radius: 4px;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.7rem;
     padding-left: 0.5rem;
     display: flex;
     align-items: center;
@@ -89,7 +89,7 @@
   }
   .submit-button{
     width: 100%;
-    height: 2.2rem;
+    height: 2.5rem;
     border-radius: 30px;
     border: none;
     display: flex;
@@ -102,7 +102,7 @@
     cursor: pointer;
   }
   .submit-button img{
-    height: 1.1rem;
+    height: 1.2rem;
     margin-right: 1rem
   }
   .section-two{
@@ -238,5 +238,6 @@
   .section-two p{
   font-size: 0.6rem;
   }
+  }
   
-   }
+ 
