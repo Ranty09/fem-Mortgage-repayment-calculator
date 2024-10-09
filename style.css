@@ -7,6 +7,7 @@
     font-size: 0.7rem;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--Slate-900);
+    max-height: 100vh;
   }
   :root{
   --Lime: hsl(61, 70%, 52%);
@@ -21,7 +22,9 @@
   .container{
     max-width: 375px;
     border: 1px solid var(--Slate-300);
-    height: 700px;
+    height: 800px;
+    margin: auto;
+    margin-bottom: 30px;
   }
   
 
@@ -54,13 +57,14 @@
     border: none;
     border-radius: 4px;
     outline: none;
-    
+    height: 2rem;
   }
   .input-section span{
     padding: 0px 5px;
     background-color: var(--Slate-100);
     border-radius: 3px;
     font-weight: 700;
+    font-size: 0.8rem;
   }
   .radio-box{
     line-height: 1.6rem;
@@ -75,6 +79,7 @@
     display: flex;
     align-items: center;
     font-weight: 700;
+    height: 2rem;
     cursor: pointer;
   }
   
@@ -104,10 +109,11 @@
     background-color: var(--Slate-900);
     color: var(--White);
     text-align: center;
-    padding: 1.5rem 1rem;
+    padding: 2rem 2.5rem;
+    height: 32%;
   }
   .section-two img{
-    height: 7rem;
+    height: 10rem;
   }
   
   .section-two p{
@@ -120,6 +126,7 @@
     color: var(--Slate-300);
     padding: 0.4rem 1.0rem 1.0rem 0.8rem;
     text-align: left;
+    height: 37%;
   }
   .section-three h3{
     color: var(--White);
@@ -203,10 +210,10 @@
   
   }
 .term{
-  max-width: 67%;
+  max-width: 63%;
   }
   .rate{
-  max-width: 81%;
+  max-width: 79%;
   }
   .input-term-rate{
   display: flex;
@@ -225,6 +232,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center ;
+  height: 85%;
 
   }
   .section-two p{
@@ -232,5 +240,3 @@
   }
   
    }
-  
- 
